@@ -1,4 +1,4 @@
-Facial Emotion Recognition
+Facial Emotion Recognition 
 This project demonstrates facial emotion recognition using a Convolutional Neural Network (CNN) in Python. The program can recognize emotions from facial images using the FER-2013 dataset.
 
 Prerequisites
