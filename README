@@ -1,0 +1,40 @@
+Facial Emotion Recognition
+This project demonstrates facial emotion recognition using a Convolutional Neural Network (CNN) in Python. The program can recognize emotions from facial images using the FER-2013 dataset.
+
+Prerequisites
+Make sure you have the following libraries installed:
+
+numpy
+pandas
+opencv-python
+keras
+tensorflow
+scikit-learn
+You can install them using:
+
+bash
+Copy code
+pip install numpy pandas opencv-python keras tensorflow scikit-learn
+Dataset
+Download the FER-2013 dataset from Kaggle.
+
+Place the fer2013.csv file in the same directory as the program files.
+
+Usage
+Run train_emotion_model.py to train the emotion recognition model:
+bash
+Copy code
+python train_emotion_model.py
+The trained model will be saved as emotion_model.h5.
+
+Run emotion_recognition.py to start real-time facial emotion recognition using the webcam:
+bash
+Copy code
+python emotion_recognition.py
+Press q to exit the webcam window.
+
+Model
+The model is a CNN with layers for convolution, max-pooling, dropout, and fully connected (Dense) layers. It's compiled using categorical cross-entropy loss and the Adam optimizer.
+
+Contributing
+Contributions are welcome! Feel free to open issues or pull requests for any improvements or suggestions.
