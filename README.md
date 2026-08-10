@@ -156,18 +156,3 @@ Emotion Prediction
 Detected Emotion
 ```
 
-## Contributing
-
-Contributions are welcome!
-
-If you have suggestions, improvements, or bug fixes, feel free to:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Commit your changes
-5. Open a Pull Request
-
-## License
-
-This project is intended for educational and research purposes.
